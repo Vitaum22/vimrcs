@@ -11,3 +11,21 @@ F3 :NERDTreeFind
 F5 :GundoToggle
 
 CTRL + L :nohls
+
+#Plugins
+
+www.github.com/scrooloose/nerdtree
+
+www.github.com/jistr/vim-nerdtree-tabs
+
+www.github.com/kien/ctrlp.vim
+
+www.github.com/vim-scripts/AutoComplPop
+
+www.github.com/msanders/snipmate.vim
+
+www.github.com/tpope/vim-endwise
+
+www.github.com/sjl/gundo.vim
+
+www.github.com/jiangmiao/auto-pairs

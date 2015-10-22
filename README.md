@@ -5,6 +5,9 @@ sh install.sh
 
 # Atalhos
 F2 :NERDTreeToggle
+
 F3 :NERDTreeFind
+
 F5 :GundoToggle
+
 CTRL + L :nohls

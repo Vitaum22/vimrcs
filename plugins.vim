@@ -17,35 +17,18 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-"------------------------------------------------------------------
+# ------------------------------------------------------------------
 
-" arvore de arquivos
-" atalho: F2 toggle
-" atalho: F3 abre a arvore com foco no arquivo atual
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'jistr/vim-nerdtree-tabs'
-
-" busca arquivo por nome
-" atalho: ctrl p
 NeoBundle 'kien/ctrlp.vim'
-
-" auto complete
 NeoBundle 'vim-scripts/AutoComplPop'
-
-" escreve um trecho e precione tab para completar
 NeoBundle 'msanders/snipmate.vim'
-
-" fecha tags ruby
 NeoBundle 'tpope/vim-endwise'
-
-" mostra ultimas revisoes
-" atalho: F5
 NeoBundle 'sjl/gundo.vim'
-
-" completa aspas chaves etc
 NeoBundle 'jiangmiao/auto-pairs'
 
-" ---------------------------------------------------------------------------
+# ------------------------------------------------------------------
 
 
 " My Bundles here:

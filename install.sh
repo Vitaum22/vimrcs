@@ -8,7 +8,7 @@ git clone https://github.com/Shougo/neobundle.vim "$INSTALL_DIR"
 
 # coloca as configuracoes em seu lugar
 mkdir -p "$RCS_DIR"
-git clone https://github.com/LeonardoFerreiraa/vim "$RCS_DIR"
+git clone https://github.com/LeonardoFerreiraa/vimrcs "$RCS_DIR"
 
 # linka as configuracoes
 echo 'source ~/.vim/vimrcs/plugins.vim

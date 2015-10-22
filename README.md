@@ -29,3 +29,5 @@ www.github.com/tpope/vim-endwise
 www.github.com/sjl/gundo.vim
 
 www.github.com/jiangmiao/auto-pairs
+
+www.github.com/terryma/vim-multiple-cursors

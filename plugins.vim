@@ -27,6 +27,7 @@ NeoBundle 'msanders/snipmate.vim'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'sjl/gundo.vim'
 NeoBundle 'jiangmiao/auto-pairs'
+NeoBundle 'terryma/vim-multiple-cursors'
 
 " ------------------------------------------------------------------
 

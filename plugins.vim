@@ -17,7 +17,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-# ------------------------------------------------------------------
+" ------------------------------------------------------------------
 
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'jistr/vim-nerdtree-tabs'
@@ -28,7 +28,7 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'sjl/gundo.vim'
 NeoBundle 'jiangmiao/auto-pairs'
 
-# ------------------------------------------------------------------
+" ------------------------------------------------------------------
 
 
 " My Bundles here:

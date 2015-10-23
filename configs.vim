@@ -1,6 +1,5 @@
 set nu
 set ai
-set background=dark
 set mouse=a
 set shiftwidth=2
 set tabstop=2
@@ -13,3 +12,7 @@ set noswapfile
 set expandtab
 set smarttab
 syntax on
+
+set background=dark
+colorscheme railscasts
+"colorscheme solarized

@@ -11,8 +11,8 @@ set nowb
 set noswapfile
 set expandtab
 set smarttab
-syntax on
 
-set background=dark
-colorscheme railscasts
-"colorscheme solarized
+try
+	colorscheme railscasts
+catch
+endtry

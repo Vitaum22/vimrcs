@@ -11,3 +11,4 @@ git clone https://github.com/LeonardoFerreiraa/vimrcs "$RCS_DIR"
 echo 'source' $RCS_DIR'/vimrcs/plugins.vim' > ~/.vimrc
 echo 'source' $RCS_DIR'/vimrcs/configs.vim' >> ~/.vimrc
 echo 'source' $RCS_DIR'/vimrcs/atalhos.vim' >> ~/.vimrc
+echo 'source' $RCS_DIR'/vimrcs/funcoes.vim' >> ~/.vimrc

@@ -28,7 +28,6 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'sjl/gundo.vim'
 NeoBundle 'jiangmiao/auto-pairs'
 NeoBundle 'terryma/vim-multiple-cursors'
-NeoBundle 'vim-scripts/Solarized'
 NeoBundle 'jpo/vim-railscasts-theme'
 
 " ------------------------------------------------------------------

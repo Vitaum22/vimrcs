@@ -12,6 +12,8 @@ set noswapfile
 set expandtab
 set smarttab
 
+let g:nerdtree_tabs_open_on_console_startup=1
+
 try
 	colorscheme railscasts
 catch

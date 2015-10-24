@@ -1,9 +1,9 @@
 function! CompileAndExecuteCCode()
 	:w
-	:!clear; gcc % && ./a.out; rm a.out
+	:!clear; gcc % && [ -f a.out  ] && ./a.out && rm a.out
 endfunction
 
 function! CompileAndExecuteCCodeWithDebugger()
 	:w
-	:!clear; gcc -g % && gdb a.out; rm a.out
+	:!clear; gcc -g % && [ -f a.out  ] && gdb a.out && rm a.out
 endfunction

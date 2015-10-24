@@ -1,7 +1,9 @@
 try
-	nnoremap <silent> <F5> :GundoToggle<CR>
 	nnoremap <silent> <F2> :NERDTreeTabsToggle<CR>
 	nnoremap <silent> <F3> :NERDTreeTabsFind<CR>
-	noremap <silent> <c-l> :nohls<cr><c-l>
-catch
+	nnoremap <silent> <F5> :GundoToggle<CR>
 endtry
+
+noremap <silent> <c-l> :nohls<cr><c-l>
+nmap <leader>w :w!<cr>
+nmap <leader>q :q<cr>

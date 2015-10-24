@@ -5,5 +5,6 @@ try
 endtry
 
 noremap <silent> <c-l> :nohls<cr><c-l>
+
 nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>

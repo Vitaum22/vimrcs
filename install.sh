@@ -1,6 +1,6 @@
 BUNDLE_DIR=~/.vim/bundle
 INSTALL_DIR="$BUNDLE_DIR/neobundle.vim"
-RCS_DIR=~/.vim/vimrcs
+RCS_DIR=~/.vim_runtime
 
 # instala neobundle
 mkdir -p "$BUNDLE_DIR"
@@ -11,6 +11,6 @@ mkdir -p "$RCS_DIR"
 git clone https://github.com/LeonardoFerreiraa/vimrcs "$RCS_DIR"
 
 # linka as configuracoes
-echo 'source ~/.vim/vimrcs/plugins.vim
-source ~/.vim/vimrcs/configs.vim
-source ~/.vim/vimrcs/atalhos.vim' > ~/.vimrc
+echo 'source $RCS_DIR/plugins.vim
+source $RCS_DIR/configs.vim
+source $RCS_DIR/atalhos.vim' > ~/.vimrc

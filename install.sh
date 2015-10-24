@@ -11,6 +11,6 @@ mkdir -p "$RCS_DIR"
 git clone https://github.com/LeonardoFerreiraa/vimrcs "$RCS_DIR"
 
 # linka as configuracoes
-echo 'source $RCS_DIR/plugins.vim
-source $RCS_DIR/configs.vim
-source $RCS_DIR/atalhos.vim' > ~/.vimrc
+echo 'source' $RCS_DIR '/plugins.vim' > ~/.vimrc
+echo 'source' $RCS_DIR '/configs.vim' >> ~/.vimrc
+echo 'source' $RCS_DIR '/atalhos.vim' >> ~/.vimrc

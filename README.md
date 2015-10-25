@@ -22,16 +22,11 @@ CompilarEExecutarCodigoC()
 CompilarEDebugarCodigoC()
 ```
 # Atalhos
-------------------------------------------
-| F2          | NERDTreeToggle           |
-------------------------------------------
-| F3          | NERDTreeFind             |
-------------------------------------------
-| F5          | GundoToggle              |
-------------------------------------------
-| CTRL + L    | nohls                    |
-------------------------------------------
-| F9          | CompilarEExecutarCodigoC |
-------------------------------------------
-| CTRL + F9   | CompiarEDebugarCodigoC   |
-------------------------------------------
+```
+F2           NERDTreeToggle           
+F3           NERDTreeFind
+F5           GundoToggle              
+CTRL + L     nohls
+F9           CompilarEExecutarCodigoC 
+CTRL + F9    CompiarEDebugarCodigoC   
+```

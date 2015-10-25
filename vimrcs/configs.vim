@@ -1,9 +1,8 @@
-let mapleader = " "
+let mapleader=" "
 
 set nu
 set numberwidth=4
 set ai
-set mouse=a
 set shiftwidth=2
 set tabstop=2
 set so=10
@@ -43,3 +42,4 @@ try
   let g:airline_theme="luna"
 	set noshowmode
 endtry
+

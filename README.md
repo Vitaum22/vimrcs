@@ -23,3 +23,7 @@ CTRL + L :nohls
 - [auto-pairs] (https://github.com/jiangmiao/auto-pairs)
 - [vim-multiple-cursors] (https://github.com/terryma/vim-multiple-cursors)
 - [vim-railscasts-theme] (https://github.com/jpo/vim-railscasts-theme)
+
+# Funções
+> CompilarEExecutarCodigoC()
+> CompilarEDebugarCodigoC()

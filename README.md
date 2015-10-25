@@ -10,15 +10,14 @@ CTRL + L :nohls
 ```
 # Plugins
 
-```
-https://github.com/Shougo/neobundle.vim
-https://github.com/scrooloose/nerdtree
-https://github.com/jistr/vim-nerdtree-tabs
-https://github.com/kien/ctrlp.vim
-https://github.com/vim-scripts/AutoComplPop
-https://github.com/msanders/snipmate.vim
-https://github.com/tpope/vim-endwise
-https://github.com/sjl/gundo.vim
-https://github.com/jiangmiao/auto-pairs
-https://github.com/terryma/vim-multiple-cursors
-```
+- https://github.com/Shougo/neobundle.vim
+- https://github.com/scrooloose/nerdtree
+- https://github.com/jistr/vim-nerdtree-tabs
+* https://github.com/kien/ctrlp.vim
+* https://github.com/vim-scripts/AutoComplPop
+- https://github.com/msanders/snipmate.vim
+- https://github.com/tpope/vim-endwise
+* https://github.com/sjl/gundo.vim
+* https://github.com/jiangmiao/auto-pairs
+* https://github.com/terryma/vim-multiple-cursors
+

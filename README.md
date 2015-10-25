@@ -1,7 +1,7 @@
-# Instalar
+### Instalar ###
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/LeonardoFerreiraa/vimrcs/master/install.sh)"
 
-# Atalhos
+### Atalhos ###
 F2 :NERDTreeToggle
 
 F3 :NERDTreeFind
@@ -10,7 +10,7 @@ F5 :GundoToggle
 
 CTRL + L :nohls
 
-#Plugins
+### Plugins ###
 
 www.github.com/scrooloose/nerdtree
 

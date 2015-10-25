@@ -25,5 +25,7 @@ CTRL + L :nohls
 - [vim-railscasts-theme] (https://github.com/jpo/vim-railscasts-theme)
 
 # Funções
+```
 > CompilarEExecutarCodigoC()
 > CompilarEDebugarCodigoC()
+```

@@ -1,5 +1,7 @@
 # Instalar
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/LeonardoFerreiraa/vimrcs/master/install.sh)"
+
+> sh -c "$(curl -fsSL https://raw.githubusercontent.com/LeonardoFerreiraa/vimrcs/master/install.sh)"
+
 
 # Atalhos
 ```

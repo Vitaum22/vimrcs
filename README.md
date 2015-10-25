@@ -2,14 +2,6 @@
 
 > sh -c "$(curl -fsSL https://raw.githubusercontent.com/LeonardoFerreiraa/vimrcs/master/install.sh)"
 
-
-# Atalhos
-```
-F2 :NERDTreeToggle
-F3 :NERDTreeFind
-F5 :GundoToggle
-CTRL + L :nohls
-```
 # Plugins
 
 - [neobundle] (https://github.com/Shougo/neobundle.vim)
@@ -28,4 +20,13 @@ CTRL + L :nohls
 ```
 CompilarEExecutarCodigoC()
 CompilarEDebugarCodigoC()
+```
+# Atalhos
+```
+F2          NERDTreeToggle
+F3          NERDTreeFind
+F5          GundoToggle
+CTRL + L    nohls
+F9          CompilarEExecutarCodigoC
+CTRL + F9   CompiarEDebugarCodigoC
 ```

@@ -26,6 +26,6 @@ CTRL + L :nohls
 
 # Funções
 ```
-> CompilarEExecutarCodigoC()
-> CompilarEDebugarCodigoC()
+CompilarEExecutarCodigoC()
+CompilarEDebugarCodigoC()
 ```

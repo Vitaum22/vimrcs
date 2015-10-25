@@ -10,14 +10,14 @@ CTRL + L :nohls
 ```
 # Plugins
 
-- [Shougo/neobundle.vim] (https://github.com/Shougo/neobundle.vim)
-- https://github.com/scrooloose/nerdtree
-- https://github.com/jistr/vim-nerdtree-tabs
-- https://github.com/kien/ctrlp.vim
-- https://github.com/vim-scripts/AutoComplPop
-- https://github.com/msanders/snipmate.vim
-- https://github.com/tpope/vim-endwise
-- https://github.com/sjl/gundo.vim
-- https://github.com/jiangmiao/auto-pairs
-- https://github.com/terryma/vim-multiple-cursors
-- https://github.com/jpo/vim-railscasts-theme
+- [neobundle] (https://github.com/Shougo/neobundle.vim)
+- [NERDTree] (https://github.com/scrooloose/nerdtree)
+- [NERDTreeTabs] (https://github.com/jistr/vim-nerdtree-tabs)
+- [CtrlP] (https://github.com/kien/ctrlp.vim)
+- [AutoComplPop] (https://github.com/vim-scripts/AutoComplPop)
+- [snipmate] (https://github.com/msanders/snipmate.vim)
+- [vim-endwise] (https://github.com/tpope/vim-endwise)
+- [gundo] (https://github.com/sjl/gundo.vim)
+- [auto-pairs] (https://github.com/jiangmiao/auto-pairs)
+- [vim-multiple-cursors] (https://github.com/terryma/vim-multiple-cursors)
+- [vim-railscasts-theme] (https://github.com/jpo/vim-railscasts-theme)

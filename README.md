@@ -4,8 +4,8 @@
 
 ## Instalação manual
 1. Instalar [neobundle] (https://github.com/Shougo/neobundle.vim)
-	``````
-  $ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
+	```
+  	$ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
 	$ sh ./install.sh
 	``` 
 2. Clonar o repositorio para .vim\_runtime

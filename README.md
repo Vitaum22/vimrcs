@@ -9,10 +9,12 @@
 	$ sh ./install.sh
 	``` 
 2. Clonar o repositorio para .vim\_runtime
+
 	```
 	git clone https://github.com/LeonardoFerreiraa/vimrcs > ~/.vim_runtime/
 	```	
 3. Colocar caminho dos arquivos de configuração no .vimrc
+
 	```
 	echo 'source ~/.vim_runtime/vimrcs/plugins.vim 
 	source ~/.vim_runtime/vimrcs/configs.vim

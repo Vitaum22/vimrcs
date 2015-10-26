@@ -47,7 +47,7 @@ CompilarEDebugarCodigoC()
 ```
 F2           NERDTreeToggle           
 F3           TagbarToggle
-F5           GundoToggle              
+F4           GundoToggle              
 CTRL + L     nohls
 F9           CompilarEExecutarCodigoC()
 CTRL + F9    CompiarEDebugarCodigoC()

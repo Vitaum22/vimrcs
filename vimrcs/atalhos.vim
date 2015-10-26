@@ -1,7 +1,7 @@
 try
 	nnoremap <silent> <F2> :NERDTreeTabsToggle<CR>
 	nnoremap <silent> <F3> :TagbarToggle<CR>
-	nnoremap <silent> <F5> :GundoToggle<CR>
+	nnoremap <silent> <F4> :GundoToggle<CR>
 endtry
 
 noremap <silent> <c-l> :nohls<cr><c-l>

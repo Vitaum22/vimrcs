@@ -47,3 +47,7 @@ try
 	let g:tagbar_singleclick=1
 endtry
 
+try
+	let g:gundo_right = 1
+endtry
+

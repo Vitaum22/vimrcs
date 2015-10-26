@@ -3,7 +3,7 @@
 > sh -c "$(curl -fsSL https://raw.githubusercontent.com/LeonardoFerreiraa/vimrcs/master/install.sh)"
 
 ## Instalação manual
-1. Instalar [neobundle] (https://github.com/Shougo/neobundle.vim)
+1. Instale o [neobundle] (https://github.com/Shougo/neobundle.vim)
 
 	```
   	$ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh

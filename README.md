@@ -1,4 +1,4 @@
-# Instalar
+# Como instalar
 ## Instalação automatica.
 > sh -c "$(curl -fsSL https://raw.githubusercontent.com/LeonardoFerreiraa/vimrcs/master/install.sh)"
 

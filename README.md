@@ -22,6 +22,7 @@
 	source ~/.vim_runtime/vimrcs/atalhos.vim 
 	source ~/.vim_runtime/vimrcs/funcoes.vim' > ~/.vimrc
 	```
+	
 # Plugins
 
 - [neobundle] (https://github.com/Shougo/neobundle.vim)

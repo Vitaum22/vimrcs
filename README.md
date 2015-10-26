@@ -9,12 +9,12 @@
   	$ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
 	$ sh ./install.sh
 	``` 
-2. Clonar o repositorio para .vim\_runtime
+2. Clone o repositorio para ~/.vim\_runtime
 
 	```
 	git clone https://github.com/LeonardoFerreiraa/vimrcs > ~/.vim_runtime/
 	```	
-3. Colocar caminho dos arquivos de configuração no .vimrc
+3. Coloque o caminho dos arquivos de configuração no ~/.vimrc
 
 	```
 	echo 'source ~/.vim_runtime/vimrcs/plugins.vim 

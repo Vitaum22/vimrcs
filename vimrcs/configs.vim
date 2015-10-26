@@ -43,3 +43,7 @@ try
 	set noshowmode
 endtry
 
+try
+	let g:tagbar_singleclick=1
+endtry
+

@@ -1,6 +1,6 @@
 try
 	nnoremap <silent> <F2> :NERDTreeTabsToggle<CR>
-	nnoremap <silent> <F3> :NERDTreeTabsFind<CR>
+	nnoremap <silent> <F3> :TagbarToggle<CR>
 	nnoremap <silent> <F5> :GundoToggle<CR>
 endtry
 

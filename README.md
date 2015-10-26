@@ -15,6 +15,7 @@
 - [auto-pairs] (https://github.com/jiangmiao/auto-pairs)
 - [vim-multiple-cursors] (https://github.com/terryma/vim-multiple-cursors)
 - [vim-railscasts-theme] (https://github.com/jpo/vim-railscasts-theme)
+- [tagbar] (https://github.com/majutsushi/tagbar)
 
 # Funções
 ```
@@ -24,7 +25,7 @@ CompilarEDebugarCodigoC()
 # Atalhos
 ```
 F2           NERDTreeToggle           
-F3           NERDTreeFind
+F3           TagbarToggle
 F5           GundoToggle              
 CTRL + L     nohls
 F9           CompilarEExecutarCodigoC()

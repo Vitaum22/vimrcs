@@ -1,22 +1,27 @@
 let mapleader=" "
 
 set nu
-set numberwidth=4
 set ai
+
 set shiftwidth=2
 set tabstop=2
+set expandtab
+set smarttab
+
 set so=10
-set ignorecase
-set hlsearch
+
 set nobackup
 set nowb
 set noswapfile
-set expandtab
-set smarttab
+
 set noswapfile
 set history=500
 set noeol
 set binary
+
+set ignorecase
+set incsearch 
+set hlsearch
 
 if has('mouse')
   set mouse=a

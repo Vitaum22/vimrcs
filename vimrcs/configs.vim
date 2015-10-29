@@ -8,6 +8,8 @@ set tabstop=2
 set expandtab
 set smarttab
 
+set cmdheight=1
+
 set so=10
 
 set nobackup
@@ -45,7 +47,6 @@ endtry
 try
 	let g:airline_powerline_fonts=1
   let g:airline_theme="luna"
-	set noshowmode
 endtry
 
 try
@@ -53,6 +54,9 @@ try
 endtry
 
 try
-	let g:gundo_right = 1
+	let g:gundo_right=1
 endtry
 
+if has('python')
+	execute "pyfile ~/.vim_runtime/vimrcs/funcoes.py"
+endif

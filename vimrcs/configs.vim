@@ -10,8 +10,6 @@ set smarttab
 
 set cmdheight=1
 
-set so=10
-
 set nobackup
 set nowb
 set noswapfile

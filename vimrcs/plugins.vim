@@ -24,8 +24,9 @@ NeoBundle 'sjl/gundo.vim'
 NeoBundle 'jiangmiao/auto-pairs'
 NeoBundle 'terryma/vim-multiple-cursors'
 NeoBundle 'jpo/vim-railscasts-theme'
-NeoBundle 'bling/vim-airline'
+" NeoBundle 'bling/vim-airline'
 NeoBundle 'majutsushi/tagbar' " ctags
+NeoBundle 'edkolev/tmuxline.vim'
 
 " ------------------------------------------------------------------
 

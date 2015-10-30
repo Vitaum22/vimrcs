@@ -45,11 +45,6 @@ try
 endtry
 
 try
-	let g:airline_powerline_fonts=1
-  let g:airline_theme="luna"
-endtry
-
-try
 	let g:tagbar_singleclick=1
 endtry
 

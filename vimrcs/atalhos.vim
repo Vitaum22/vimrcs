@@ -4,10 +4,12 @@ try
 	nnoremap <silent> <F4> :GundoToggle<CR>
 endtry
 
-noremap <silent> <c-l> :nohls<cr><c-l>
+nmap <silent><leader>l :nohls<cr>
+nmap <silent><leader>w :w!<cr>
+nmap <silent><leader>q :q<cr>
+nmap <silent><leader>wq :wq<cr>
+nmap <silent>:W :w!<cr>
+nmap <silent>:Q :q<cr>
 
-nmap <leader>w :w!<cr>
-nmap <leader>q :q<cr>
-
-map <F9> :call CompilarEExecutarCodigoC()<CR>
-map <c-F9> :call CompilarEDebugarCodigoC()<CR>
+map <F9>:call CompilarEExecutarCodigoC()<CR>
+map <c-F9>:call CompilarEDebugarCodigoC()<CR>

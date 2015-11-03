@@ -17,16 +17,16 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'jistr/vim-nerdtree-tabs'
 NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'vim-scripts/AutoComplPop'
 NeoBundle 'msanders/snipmate.vim'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'sjl/gundo.vim'
 NeoBundle 'jiangmiao/auto-pairs'
 NeoBundle 'terryma/vim-multiple-cursors'
 NeoBundle 'jpo/vim-railscasts-theme'
-" NeoBundle 'bling/vim-airline'
 NeoBundle 'majutsushi/tagbar' " ctags
 NeoBundle 'edkolev/tmuxline.vim'
+NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'ervandew/supertab'
 
 " ------------------------------------------------------------------
 

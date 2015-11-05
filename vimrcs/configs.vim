@@ -28,28 +28,15 @@ if has('mouse')
 	set mousehide
 endif
 
-try
-	colorscheme railscasts
-endtry
-
-try
-  let g:nerdtree_tabs_open_on_console_startup=1
-  let g:NERDTreeMouseMode=3
-  let g:NERDTreeWinSize=30
-endtry
-
-try
-  let g:ctrlp_max_height=20
-endtry
-
-try
-	let g:tagbar_singleclick=1
-endtry
-
-try
-	let g:gundo_right=1
-endtry
-
 if has('python')
 	execute "pyfile ~/.vim_runtime/vimrcs/funcoes.py"
 endif
+
+try
+	colorscheme railscasts
+  " let g:nerdtree_tabs_open_on_console_startup=1
+  let g:NERDTreeMouseMode=3
+  let g:NERDTreeWinSize=30
+  let g:ctrlp_max_height=20
+	let g:tagbar_singleclick=1
+endtry

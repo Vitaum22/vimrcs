@@ -1,34 +1,25 @@
-if 0 | endif
+set nocompatible 
+filetype off
 
-if has('vim_starting')
- if &compatible
-	 set nocompatible 
- endif
- 
- set runtimepath+=~/.vim/bundle/neobundle.vim/
-endif
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-call neobundle#begin(expand('~/.vim/bundle/'))
+Plugin 'VundleVim/Vundle.vim'
 
-NeoBundleFetch 'Shougo/neobundle.vim'
+""""""""""""""""""""""""""""""""""""""""""""""
 
-" ------------------------------------------------------------------
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-endwise'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'jpo/vim-railscasts-theme'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'ervandew/supertab'
+Plugin 'scrooloose/syntastic'
 
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'jistr/vim-nerdtree-tabs'
-NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'tpope/vim-endwise'
-NeoBundle 'jiangmiao/auto-pairs'
-NeoBundle 'terryma/vim-multiple-cursors'
-NeoBundle 'jpo/vim-railscasts-theme'
-NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'ervandew/supertab'
-NeoBundle 'scrooloose/syntastic'
+""""""""""""""""""""""""""""""""""""""""""""""
 
-" ------------------------------------------------------------------
-
-call neobundle#end()
-
+call vundle#end() 
 filetype plugin indent on
-
-NeoBundleCheck

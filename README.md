@@ -3,11 +3,10 @@
 > sh -c "$(curl -fsSL https://raw.githubusercontent.com/LeonardoFerreiraa/vimrcs/master/install.sh)"
 
 ## Instalação manual
-1. Instale o [neobundle] (https://github.com/Shougo/neobundle.vim)
+1. Instale o [Vundle] (https://github.com/VundleVim/Vundle.vim)
 
 	```
-  	$ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
-	$ sh ./install.sh
+	> git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	``` 
 2. Clone o repositorio para ~/.vim\_runtime
 
@@ -43,10 +42,8 @@ CompilarEDebugarCodigoC()
 ```
 # Atalhos
 ```
-F2           NERDTreeToggle           
-F3           TagbarToggle
-F4           GundoToggle              
-CTRL + L     nohls
+F2           :NERDTreeToggle           
+, + l     	 :nohls
 F9           CompilarEExecutarCodigoC()
 CTRL + F9    CompiarEDebugarCodigoC()
 ```

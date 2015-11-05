@@ -27,5 +27,3 @@ echo 'source' $RCS_DIR'/vimrcs/plugins.vim' > ~/.vimrc
 echo 'source' $RCS_DIR'/vimrcs/configs.vim' >> ~/.vimrc
 echo 'source' $RCS_DIR'/vimrcs/atalhos.vim' >> ~/.vimrc
 echo 'source' $RCS_DIR'/vimrcs/funcoes.vim' >> ~/.vimrc
-
-echo 'instalacao completa, abra o vim e digite y para o neobundle instalar os plugins'

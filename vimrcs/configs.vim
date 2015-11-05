@@ -38,5 +38,4 @@ try
   let g:NERDTreeMouseMode=3
   let g:NERDTreeWinSize=30
   let g:ctrlp_max_height=20
-	let g:tagbar_singleclick=1
 endtry

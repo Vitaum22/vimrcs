@@ -21,8 +21,7 @@ nnoremap p p=`]<C-o>
 nnoremap P P=`]<C-o>
 
 set cursorline
-set cuc 
-set cul
+set cursorcolumn 
 
 if has('mouse')
   set mouse=a

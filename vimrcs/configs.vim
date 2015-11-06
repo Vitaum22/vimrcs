@@ -8,8 +8,6 @@ set tabstop=2
 set expandtab
 set smarttab
 
-set cmdheight=1
-
 set nobackup
 set nowb
 set noswapfile
@@ -23,6 +21,16 @@ set ignorecase
 set incsearch 
 set hlsearch
 
+set cursorline
+set cuc 
+set cul
+set ls=2
+
+set vb
+
+nnoremap p p=`]<C-o>
+nnoremap P P=`]<C-o>
+
 if has('mouse')
   set mouse=a
 	set mousehide
@@ -33,9 +41,11 @@ if has('python')
 endif
 
 try
-	colorscheme railscasts
+	set bg=light
+	colorscheme noctu
   " let g:nerdtree_tabs_open_on_console_startup=1
   let g:NERDTreeMouseMode=3
   let g:NERDTreeWinSize=30
   let g:ctrlp_max_height=20
 endtry
+

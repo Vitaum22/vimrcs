@@ -33,6 +33,7 @@
 - [vim-coffee-script] (https://github.com/kchmck/vim-coffee-script)
 - [supertab] (https://github.com/ervandew/supertab)
 - [syntatisct] (https://github.com/scrooloose/syntastic)
+- [snipmate] (https://github.com/msanders/snipmate.vim)
 
 # Funções
 ```

@@ -30,6 +30,10 @@ function! AbrirArquivosModificados()
   endfor
 endfunction
 
-function! AbrirListaTodo()
-  exec "tabnew ~/.vim_runtime/todo_list.txt"
+"TODO: inserir linha em branco antes e dps
+function! DeixarTodo()
+  let linha = line(".")
+  exec setline(linha, "#TODO: " . input("~> ") . "")
+  exec linha 
 endfunction
+

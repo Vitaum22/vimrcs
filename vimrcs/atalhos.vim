@@ -5,7 +5,6 @@ endtry
 nmap <silent><leader>l :nohls<cr>
 nmap <silent><leader>w :w!<cr>
 nmap <silent><leader>q :q<cr>
-nmap <silent><leader>t :call AbrirListaTodo()<cr>
 
 command! W w
 command! Q q

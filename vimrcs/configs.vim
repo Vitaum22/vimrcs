@@ -14,14 +14,15 @@ set hlsearch
 
 set laststatus=2
 
-syntax enable
+syntax on
 set background=dark
 
-nnoremap p p=`]<C-o>
-nnoremap P P=`]<C-o>
-
+set nowrap
+set showtabline=2
 set cursorline
 set cursorcolumn 
+
+set showcmd
 
 if has('mouse')
   set mouse=a
@@ -29,7 +30,7 @@ if has('mouse')
 endif
 
 if has('python')
-	execute "pyfile ~/.vim_runtime/vimrcs/funcoes.py"
+	execute "pyfile ~/.vim_runtime/vimrcs/inicializar.py"
 endif
 
 let g:NERDTreeMouseMode=3

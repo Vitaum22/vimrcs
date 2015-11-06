@@ -1,15 +1,16 @@
 try
 	nnoremap <silent> <F2> :NERDTreeTabsToggle<CR>
-	nnoremap <silent> <F3> :TagbarToggle<CR>
-	nnoremap <silent> <F4> :GundoToggle<CR>
 endtry
 
 nmap <silent><leader>l :nohls<cr>
 nmap <silent><leader>w :w!<cr>
 nmap <silent><leader>q :q<cr>
-nmap <silent><leader>wq :wq<cr>
-nmap <silent>:W :w!<cr>
-nmap <silent>:Q :q<cr>
+nmap <silent><leader>t :call AbrirListaTodo()<cr>
 
-map <F9>:call CompilarEExecutarCodigoC()<CR>
-map <c-F9>:call CompilarEDebugarCodigoC()<CR>
+command! W w
+command! Q q
+
+command! Renomear :call RenomearArquivo()
+command! ArquivosModificados :call AbrirArquivosModificados()
+command! GCC :call CompilarEExecutarCodigoC()
+command! GDB :call CompilarEDebugarCodigoC()

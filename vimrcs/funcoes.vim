@@ -20,20 +20,29 @@ function! RenomearArquivo()
 endfunction
 
 function! AbrirArquivosModificados()
-  only
   let status = system('git status -s | grep "^ \?\(M\|A\|UU\)" | sed "s/^.\{3\}//"')
   let nome_dos_arquivos = split(status, "\n")
-  exec "edit " . nome_dos_arquivos[0]
 
-  for nome_do_arquivo in nome_dos_arquivos[1:]
-    exec "tabnew " . nome_do_arquivo
-  endfor
+  if len(nome_dos_arquivos) == 0
+    echo 'Esse repositorio nao possui arquivos modificados'
+    return
+  endif
+
+  try
+    exec "edit " . nome_dos_arquivos[0]
+
+    for nome_do_arquivo in nome_dos_arquivos[1:]
+      exec "tabnew " . nome_do_arquivo
+    endfor
+  catch
+    echo 'Falha ao abrir arquivos modificados'
+  endtry
+
 endfunction
 
-"TODO: inserir linha em branco antes e dps
 function! DeixarTodo()
   let linha = line(".")
-  exec setline(linha, "#TODO: " . input("~> ") . "")
+  exec setline(linha, "#TODO: " . input("> "))
   exec linha 
 endfunction
 

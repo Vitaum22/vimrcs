@@ -1,16 +1,19 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""
 function! CompilarEExecutarCodigoC()
 	:w
 	:!clear; gcc -lm % && [ -f a.out  ] && ./a.out && rm a.out
 endfunction
 
+"""""""""""""""""""""""""""""""""""""""""""""""""
 function! CompilarEDebugarCodigoC()
 	:w
 	:!clear; gcc -g -lm % && [ -f a.out  ] && gdb a.out && rm a.out
 endfunction
 
+"""""""""""""""""""""""""""""""""""""""""""""""""
 function! RenomearArquivo()
   let nome_antigo = expand('%')
-  let novo_nome = input('novo nome: ', expand('%'))
+  let novo_nome = input('novo nome: ', nome_antigo)
 
   if novo_nome != '' && novo_nome != nome_antigo
     exec ':saveas ' . novo_nome
@@ -19,6 +22,7 @@ function! RenomearArquivo()
   endif
 endfunction
 
+"""""""""""""""""""""""""""""""""""""""""""""""""
 function! AbrirArquivosModificados()
   let status = system('git status -s | grep "^ \?\(M\|A\|UU\)" | sed "s/^.\{3\}//"')
   let nome_dos_arquivos = split(status, "\n")
@@ -40,9 +44,31 @@ function! AbrirArquivosModificados()
 
 endfunction
 
+"""""""""""""""""""""""""""""""""""""""""""""""""
 function! DeixarTodo()
   let linha = line(".")
-  exec setline(linha, "#TODO: " . input("> "))
+
+  if &filetype == 'vim'
+    exec setline(linha, "\"TODO: " . input("> "))
+  elseif &filetype == 'c'
+    exec setline(linha, "\/\/TODO: " . input("> "))
+  elseif &filetype == 'ruby'
+    exec setline(linha, "#TODO: " . input("> "))
+  elseif &filetype == 'java'
+    exec setline(linha, "\/\/TODO: " . input("> "))
+  elseif &filetype == 'html'
+    exec setline(linha, "<!-- TODO: " . input("> ") . " -->")
+  elseif &filetype == 'eruby'
+    exec setline(linha, "<!-- TODO: " . input("> ") . " -->")
+  elseif &filetype == 'haml'
+    exec setline(linha, "\/TODO: " . input("> "))
+  elseif &filetype == 'python'
+    exec setline(linha, "#TODO: " . input("> "))
+  else
+    echo 'tipo de arquivo nao suportado'
+  endif
+
   exec linha 
 endfunction
 
+"""""""""""""""""""""""""""""""""""""""""""""""""

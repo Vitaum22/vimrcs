@@ -4,10 +4,8 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
-
 """"""""""""""""""""""""""""""""""""""""""""""
-
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
@@ -22,6 +20,5 @@ Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 
 """"""""""""""""""""""""""""""""""""""""""""""
-
 call vundle#end() 
 filetype plugin indent on

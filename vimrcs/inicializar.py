@@ -8,7 +8,6 @@ class Inicializar(Thread):
 	def run(self):
 		Atualizador().start()
 
-
 class Atualizador(Thread):
 	def __init__(self):
 		Thread.__init__(self)

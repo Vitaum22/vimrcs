@@ -39,11 +39,24 @@
 ```
 CompilarEExecutarCodigoC()
 CompilarEDebugarCodigoC()
+RenomearArquivo()
+AbrirArquivosModificados()
+DeixarTodo()
 ```
 # Atalhos
 ```
-F2           :NERDTreeToggle           
-, + l     	 :nohls
-F9           CompilarEExecutarCodigoC()
-CTRL + F9    CompiarEDebugarCodigoC()
+F2 :NERDTreeTabsToggle<CR>
+,l :nohls
+,w :w!
+,q :q
+:W w!
+:Q qa
+:Renomear RenomearArquivo()
+:ArquivosModificados AbrirArquivosModificados()
+:GCC  CompilarEExecutarCodigoC()
+:GDB  CompilarEDebugarCodigoC()
+:TODO DeixarTodo()
+,o O<Esc>
+,n o<Esc>
+
 ```

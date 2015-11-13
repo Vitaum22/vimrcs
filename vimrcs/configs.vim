@@ -45,3 +45,7 @@ let g:NERDTreeMouseMode=3
 let g:SuperTabCrMapping = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""
+set splitbelow
+set splitright
+
+"""""""""""""""""""""""""""""""""""""""""""""""""

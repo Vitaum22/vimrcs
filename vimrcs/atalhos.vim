@@ -21,3 +21,7 @@ command! TODO                :call DeixarTodo()
 set pastetoggle=<F3>
 
 """""""""""""""""""""""""""""""""""""""""""""""""
+map <C-left>  :wincmd h<CR>
+map <C-down>  :wincmd j<CR>
+map <C-up>    :wincmd k<CR>
+map <C-right> :wincmd l<CR>

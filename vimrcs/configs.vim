@@ -33,11 +33,15 @@ set mouse=a
 set mousehide
 
 """""""""""""""""""""""""""""""""""""""""""""""""
+set wildignore=*.class
+
+"""""""""""""""""""""""""""""""""""""""""""""""""
 if has('python')
 	execute "pyfile ~/.vim_runtime/vimrcs/inicializar.py"
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDTreeMouseMode=3
+let g:SuperTabCrMapping = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""

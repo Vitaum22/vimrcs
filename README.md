@@ -1,6 +1,6 @@
 # Como instalar
 ## Instalação automatica
-> sh -c "$(curl -fsSL https://raw.githubusercontent.com/LeonardoFerreiraa/vimrcs/master/install.sh)"
+> sh -c "$(curl -fsSL https://raw.githubusercontent.com/LeonardoFerreiraa/vimrcs/master/instalar.sh)"
 
 ## Instalação manual
 1. Instale o [Vundle] (https://github.com/VundleVim/Vundle.vim)
@@ -42,21 +42,4 @@ CompilarEDebugarCodigoC()
 RenomearArquivo()
 AbrirArquivosModificados()
 DeixarTodo()
-```
-# Atalhos
-```
-F2 :NERDTreeTabsToggle<CR>
-,l :nohls
-,w :w!
-,q :q
-:W w!
-:Q qa
-:Renomear RenomearArquivo()
-:ArquivosModificados AbrirArquivosModificados()
-:GCC  CompilarEExecutarCodigoC()
-:GDB  CompilarEDebugarCodigoC()
-:TODO DeixarTodo()
-,o O<Esc>
-,n o<Esc>
-
 ```

@@ -8,7 +8,7 @@
 	> $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 2. Clone o repositorio para ~/.vim\_runtime
 
-	> $ git clone https://github.com/LeonardoFerreiraa/vimrcs > ~/.vim_runtime/
+	> $ git clone https://github.com/LeonardoFerreiraa/vimrcs ~/.vim_runtime
 3. Coloque o caminho dos arquivos de configuração no ~/.vimrc
 
 	```

@@ -1,3 +1,6 @@
+filetype plugin on
+filetype indent on
+
 """""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader=","
 
@@ -18,7 +21,7 @@ set hlsearch
 set smartcase
 
 """""""""""""""""""""""""""""""""""""""""""""""""
-set showtabline=2
+"set showtabline=2
 set laststatus=2
 
 """""""""""""""""""""""""""""""""""""""""""""""""
@@ -49,3 +52,4 @@ set splitbelow
 set splitright
 
 """""""""""""""""""""""""""""""""""""""""""""""""
+let g:closetag_filenames = "*.html,*.erb"

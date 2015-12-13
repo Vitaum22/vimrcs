@@ -21,6 +21,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'ervandew/supertab'
+Plugin 'alvan/vim-closetag'
 
 """"""""""""""""""""""""""""""""""""""""""""""
 call vundle#end() 

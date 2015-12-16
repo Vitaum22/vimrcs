@@ -13,6 +13,6 @@ class Atualizador(Thread):
 		Thread.__init__(self)
 
 	def run(self):
-		os.system("git -C ~/.vim_runtime/ pull origin master > /dev/null 2> /dev/null")
+		os.system("git -C ~/.vim_runtime/ pull --rebase")
 
 Inicializar().start()

@@ -45,14 +45,15 @@ endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDTreeMouseMode=3
-let g:SuperTabCrMapping = 0
+let g:NERDTreeRespectWildIgnore=1
+let g:SuperTabCrMapping=0
 
 """""""""""""""""""""""""""""""""""""""""""""""""
 set splitbelow
 set splitright
 
 """""""""""""""""""""""""""""""""""""""""""""""""
-let g:closetag_filenames = "*.html,*.erb"
+let g:closetag_filenames="*.html,*.erb"
 
 """""""""""""""""""""""""""""""""""""""""""""""""
 set noswapfile

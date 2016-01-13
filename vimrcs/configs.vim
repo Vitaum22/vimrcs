@@ -36,7 +36,7 @@ set mouse=a
 set mousehide
 
 """""""""""""""""""""""""""""""""""""""""""""""""
-set wildignore=*.class
+set wildignore=*.class,.pyc
 
 """""""""""""""""""""""""""""""""""""""""""""""""
 if has('python')

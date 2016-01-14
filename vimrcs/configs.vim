@@ -57,3 +57,4 @@ let g:closetag_filenames="*.html,*.erb"
 
 """""""""""""""""""""""""""""""""""""""""""""""""
 set noswapfile
+let g:ctrlp_use_caching = 0
